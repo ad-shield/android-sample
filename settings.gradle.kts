@@ -18,4 +18,4 @@ dependencyResolutionManagement {
 rootProject.name = "adshield-android-sample"
 include(":app")
 include(":adshield")
-project(":adshield").projectDir = file("/tmp/android/adshield")
+project(":adshield").projectDir = file("android/adshield")
