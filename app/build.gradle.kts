@@ -26,6 +26,6 @@ android {
 }
 
 dependencies {
-    implementation("io.adshield:adshield-android:1.0.0")
+    implementation(project(":adshield"))
     implementation("androidx.appcompat:appcompat:1.6.1")
 }
