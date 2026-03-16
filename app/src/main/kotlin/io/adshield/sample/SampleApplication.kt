@@ -6,7 +6,7 @@ import io.adshield.android.AdShield
 class SampleApplication : Application() {
     override fun onCreate() {
         super.onCreate()
-        AdShield.configure(endpoint = "https://joungjin-echo-to-slack-adshield.adshield.workers.dev/echo-config")
+        AdShield.configure(endpoint = "https://cdn.jsdelivr.net/gh/ad-shield/c/config.txt")
         AdShield.measure(this)
     }
 }
